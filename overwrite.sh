@@ -31,7 +31,7 @@ numactl -C 0-31 ./db_bench --benchmarks="overwrite,stats,levelstats" \
 --sync=false \
 --report_interval_seconds=5 \
 --report_file=${4}/write_Dataset_${2}G_Value_${3}_DisWal_${5}.csv \
-> ${4}/write_Dataset_${2}G_Value_${3}_DisWal_${5}.txt 2>&1 \
+> ${4}/write_Dataset_${2}G_Value_${3}_DisWal_${5}.txt 2>&1
 
 ###Emon finish
 emon -stop
