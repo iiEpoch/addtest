@@ -1,8 +1,12 @@
 read -p "test_path:" test_path
 read -p "report_path:" report_path
 
+mkdir ${report_path}
+
 #data_path
 path="/mnt/nvme4"
+
+mkdir ${path}
 
 value_size=512
 
