@@ -6,8 +6,6 @@ mkdir ${report_path}
 #data_path
 path="/mnt/nvme4"
 
-mkdir ${path}
-
 value_size=512
 
 rm -rf ${path}/${value_size}B
